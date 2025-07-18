@@ -50,6 +50,25 @@ header nav a:hover{
     color: var(--ambarP);
 }
 
+#conteiner-carrinho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    right: 20px;
+    top: 550px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.274);
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
 #cardapio{
     text-shadow: none;
     background-color: white;
