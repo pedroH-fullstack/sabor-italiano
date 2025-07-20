@@ -26,7 +26,7 @@ body{
 }
 
 .menu:hover :not(a:hover){
-    opacity: .2;
+    opacity: 0.2;
 }
 
 #nav-flex{
