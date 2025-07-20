@@ -18,6 +18,16 @@ body{
     background-color: var(--ambarClaro);
 }
 
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu:hover :not(a:hover){
+    opacity: .2;
+}
 
 #nav-flex{
     background-color: white;
@@ -62,6 +72,7 @@ header nav a:hover{
     border-radius: 50%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.274);
 }
+
 
 img{
     width: 60px;
@@ -126,6 +137,12 @@ button{
     border-radius: 10px;
     border: none;
 }
+
+button:hover{
+    background-color: var(--ambarP);
+    color: white;
+}
+
 .container-button{
     display: flex;
     justify-content: flex-end;
